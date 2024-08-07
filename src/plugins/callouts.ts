@@ -23,7 +23,7 @@ const kCalloutPrefix = 'callout-';
 const kCalloutRuleName = 'quarto-callouts';
 
 interface Callout {
-  type: 'note' | 'caution' | 'warning' | 'important' | 'tip' | string;
+  type: 'note' | 'caution' | 'warning' | 'important' | 'tip' | 'exercise' | string;
   clz: string;
   title?: string;
   icon?: boolean;
